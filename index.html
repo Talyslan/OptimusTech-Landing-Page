@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
+
+    <!-- Font Link - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Css Links -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <title>OptimusTech</title>
+</head>
+<body>
+    <!-- Cabeçalho com a barra de navegação -->
+    <header>
+        <img src="./public/logo.svg" alt="OptimusTech Logo">
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Produtos</a></li>
+                <li><a href="">Recursos</a></li>
+                <li><a href="">Sobre nós</a></li>
+            </ul>
+        </nav>
+
+        <div class="buttons">
+            <a href=" ">Entrar</a>
+            <a href="">Cadastrar</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Cabeçalho -->
+        <header>
+            <h3>Sobre nós</h3>
+            <h1>Por que somos diferentes?</h1>
+            <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        </header>
+
+        <!-- Section das Métricas -->
+        <section id="metrics" class="metrics"></section>
+
+        <!-- Section com imagem -->
+        <section class="anuncio-vagas">
+            <div class="text">
+                <h3>Vagas abertas!</h3>
+                <h2>Estamos procurando por talentos</h2>
+                <span>Somos uma equipe 100% remota com pessoas do Brasil inteiro</span>
+            </div>
+            <img src="./public/illustration.png" alt="Imagem ilustrativa com pessoas">
+        </section>
+
+        <!-- Section Vagas -->
+        <section id="vagas">
+            <article class="vagas__cargos">
+                <h3>Design</h3>
+                <div id="vagas__cargos__abertos">
+                    <div class="vagas__cargos__abertos__item">
+                        <span>Product Designer</span>
+
+                        <div class="informacoes">
+                            <span>Full time</span>
+                            <span>Faixa salarial: R$1200,00</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Section Depoimentos -->
+        <section class="depoimentos">
+            <span>Veja o que nossos colaboradores falam sobre nós</span>
+
+            <div id="carrossel" class="carrossel">
+
+                <div class="item">
+                    <p>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</p>
+                    <div class="user">
+                        <img src="./public/people/avatar1.jpg" alt="">
+                        <span>Júlia Castro</span>
+                        <span>Desenvolvedora Web</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="acompanhe">
+            <h2>Acompanhe as nossas oportunidades</h2>
+            <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
+
+            <form action="/index.html" method="post">
+                <label for="email__input">
+                    <span>Seu e-mail</span>
+                    <input type="email" name="email__input" id="email__input">
+                </label>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>© 2022 OptimusTech. Todos os direitos reservados.</footer>
+    
+    <!-- JavaScript link -->
+    <script src="./src/js/html-content/metrics.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+:root {
+    --clr-basis: #8E2424;
+    --clr-black: #101828;
+    --clr-white: #FFFF;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--clr-white);
+}
