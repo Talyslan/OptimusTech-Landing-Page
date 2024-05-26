@@ -6,26 +6,26 @@
 ## 🛸 O Projeto
 <img height="200" src="" alt="gif" />
 
-<blockquote>Optumos Tech, veja as nossas vagas abertas e seja do nosso time!</blockquote>
+<blockquote>Optumos Tech, veja as nossas vagas abertas e faça parte do nosso time!</blockquote>
 
 <p>Desafio da <strong>Alura, criando um site fictício em 7 dias </strong>(construido em 1 dia só) de uma empresa de tecnologia disponibilizando vagas! Venha com a OptimusTech. Foquei na organização, código bem comentado e simples de entender.</p>
 
 ## 📌 Como ver
 
 O projeto está hospedado no GitHub Pages:
-[Maya IA - Landing Page]()
+[OptimusTech - Landing Page](https://talyslan.github.io/OptimusTech-Landing-Page/)
 
 ## 👨‍👩‍👧‍👦 How to clone
 - Para realizar um clone raso, reduzirá a quantidade de histórico baixado.
-<blockquote>
-<code>git clone --depth 1 https://github.com/Talyslan/OptimusTech-Landing-Page.git</code>
-</blockquote>
+```javascript
+git clone --depth 1 https://github.com/Talyslan/OptimusTech-Landing-Page.git
+```
 <br>
 
 - Para realizar um clone comum.
-<blockquote>
-<code>git clone https://github.com/Talyslan/OptimusTech-Landing-Page.git</code>
-</blockquote>
+```javascript
+git clone https://github.com/Talyslan/OptimusTech-Landing-Page.git
+```
 
 - Link Figma: 
 <a href="https://www.figma.com/design/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0-1&t=qhAX7KDsLMfatEnb-0">
