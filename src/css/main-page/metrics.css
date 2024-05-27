@@ -1,6 +1,7 @@
 .metrics {
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 3em 0;
 }
 
 .metrics div {

@@ -24,6 +24,11 @@ span {
     width: clamp(10ch, 100%, 50ch);
 }
 
+footer {
+    padding-bottom: 2em;
+    text-align: center;
+}
+
 /* general classes */
 .flex {
     display: flex;
