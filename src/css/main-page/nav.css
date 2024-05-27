@@ -1,0 +1,25 @@
+/* general */
+body > header,
+nav {
+    width: 100%;
+}
+
+body > header a {
+    color: var(--clr-gray);
+}
+
+/* header */
+body > header {
+    width: 100%;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.left-side {
+    gap: 6em;
+}
+
+.buttons,
+nav ul {
+    gap: 2em;
+}

@@ -1,10 +1,66 @@
 :root {
     --clr-basis: #8E2424;
+    --clr-basis-lowOpac:  #8E24240D; 
     --clr-black: #101828;
-    --clr-white: #FFFF;
+    --clr-black-lowOpac: #10182814;
+    --clr-white: #fafafa;
+    --clr-gray: #667085;
+}
+
+body,
+a,
+button {
+    font-family: "Inter", sans-serif;
+    color: var(--clr-black);
 }
 
 body {
-    font-family: "Inter", sans-serif;
     background: var(--clr-white);
+    margin: 0 3em 0 3em;
+}
+
+p,
+span {
+    width: clamp(10ch, 100%, 50ch);
+}
+
+/* general classes */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background: var(--clr-basis);
+    color: var(--clr-white);
+    font-weight: bold;
+    padding: .7em 1.1em;
+    border-radius: .5em;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px var(--clr-basis-lowOpac);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    padding: 5em;
+}
+
+.subtitle {
+    background: var(--clr-basis-lowOpac);
+    color: var(--clr-basis);
+    font-weight: 600;
+    font-size: .9rem;
+    padding: .3em .6em;
+    border-radius: 1em;
 }

@@ -1,0 +1,23 @@
+.metrics {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.metrics div {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.metrics div h3 {
+    font-size: 3rem;
+    color: var(--clr-basis);
+}
+
+.metrics div span {
+    font-weight: bold;
+}
+
+.metrics div p {
+    width: 20ch;
+}

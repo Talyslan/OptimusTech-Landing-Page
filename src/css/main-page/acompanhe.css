@@ -1,0 +1,46 @@
+section.acompanhe {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.acompanhe h2 {
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    gap: 2em;
+    width: 60%;
+}
+
+form > label {
+    position: relative;
+    min-width: 120px;
+    border: 1px solid var(--clr-basis);
+    border-radius: .5em;
+}
+
+form > label > span {
+    background: var(--clr-white);
+    position: absolute;
+    left: 1em;
+    top: .7em;
+    width: auto;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+form > label > input {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    font-size: 1rem;
+}
+
+form button.btn {
+    padding: 1em;
+}

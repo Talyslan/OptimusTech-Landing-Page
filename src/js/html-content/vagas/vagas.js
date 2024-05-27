@@ -9,12 +9,14 @@ const template_vagaCargosAbertos = (array) => {
 
     for (const obj of array) {
         string += `
-            <div class="vagas__cargos__abertos__item">
-                <span>${obj.title}</span>
+            <div class="cargos__abertos__item">
+                <div>
+                    <span>${obj.title}</span>
 
-                <div class="informacoes">
-                    <span>${obj.period}</span>
-                    <span>${obj.remuneration}</span>
+                    <div>
+                        <span>${obj.period}</span>
+                        <span>Faixa salarial: R$${obj.remuneration},00</span>
+                    </div>
                 </div>
             </div>`;
     }
@@ -24,10 +26,10 @@ const template_vagaCargosAbertos = (array) => {
 
 const template = (key, value) => {
     return `
-    <article class="vagas__cargos">
+    <article class="cargos">
         <h3>${key}</h3>
 
-        <div id="vagas__cargos__abertos">
+        <div class="cargos__abertos">
            ${template_vagaCargosAbertos(value)}
         </div>
 

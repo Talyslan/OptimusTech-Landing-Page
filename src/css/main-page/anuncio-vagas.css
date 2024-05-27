@@ -1,0 +1,16 @@
+.anuncio-vagas {
+    padding-bottom: 0;
+}
+
+.anuncio-vagas img {
+    width: 100%;
+    margin-top: 2em;
+    border-radius: .2em;
+}
+
+.anuncio-vagas .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}

@@ -1,0 +1,60 @@
+.vagas {
+    align-items: center;
+    gap: 2em;
+}
+
+.cargos__abertos__item div,
+.cargos,
+.cargos__abertos,
+.cargos__abertos__item,
+.cargos__abertos__item > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cargos {
+    text-align: start;
+    width: 80%;
+    gap: 1em;
+}
+
+.cargos__abertos {
+    gap: .5em;
+}
+
+.cargos__abertos__item {
+    border: 1px solid var(--clr-basis-lowOpac);
+    border-radius: 1em;
+    padding: 1.5em 3em 1.5em 2em;
+    gap: 1.5em;
+    box-shadow: 0 2px 2px var(--clr-black-lowOpac);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.cargos__abertos__item > div {
+    gap: 1.5em;
+}
+
+.cargos__abertos__item > div > span {
+    font-weight: 600;
+}
+
+.cargos__abertos__item div > div {
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+
+.cargos__abertos__item:hover {
+    background: var(--clr-basis-lowOpac);
+    cursor: pointer;
+}
+
+.cargos__abertos__item:hover::after {
+    content: url('../../../public/redirect.png');
+    width: 1em;
+}
