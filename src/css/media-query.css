@@ -1,8 +1,9 @@
 @media (max-width: 900px){
     /* global */
-    body {
-        margin: 0;
-    }
+    body { margin: 0; }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.5rem; }
 
     /* nav */
     nav,
@@ -26,11 +27,6 @@
 
     .carrossel .item .user {
         gap: .5em;
-    }
-
-    /* acompanhe */ 
-    .acompanhe h2 {
-        font-size: 1.5rem;
     }
 
     /* footer */

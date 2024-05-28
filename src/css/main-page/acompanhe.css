@@ -4,10 +4,6 @@ section.acompanhe {
     gap: 1em;
 }
 
-.acompanhe h2 {
-    font-size: 2rem;
-}
-
 form {
     display: flex;
     justify-content: center;

@@ -6,6 +6,12 @@ nav {
 
 body > header a {
     color: var(--clr-gray);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+body > header a:hover:not(a.btn) {
+    color: var(--clr-black);
 }
 
 /* header */
