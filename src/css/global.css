@@ -19,9 +19,10 @@ body {
     margin: 0 3em 0 3em;
 }
 
+h2,
 p,
 span {
-    width: clamp(10ch, 100%, 50ch);
+    width: clamp(15ch, 80%, 50ch);
 }
 
 footer {
@@ -46,7 +47,7 @@ footer {
 
 .btn:hover {
     cursor: pointer;
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     box-shadow: 5px 5px 5px var(--clr-basis-lowOpac);
 }
 

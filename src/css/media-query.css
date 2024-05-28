@@ -1,5 +1,40 @@
-@media (max-width: 960px){
-    nav {
+@media (max-width: 900px){
+    /* global */
+    body {
+        margin: 0;
+    }
+
+    /* nav */
+    nav,
+    .buttons {
         display: none
+    }
+
+    header.flex {
+        justify-content: center;
+    }
+
+    /* general classes */
+    .center {
+        padding: 3em 1em;
+    }
+
+    /* carrossel */
+    .carrossel .item p {
+        font-size: 1rem;
+    }
+
+    .carrossel .item .user {
+        gap: .5em;
+    }
+
+    /* acompanhe */ 
+    .acompanhe h2 {
+        font-size: 1.5rem;
+    }
+
+    /* footer */
+    footer span {
+        font-size: .7rem;
     }
 }

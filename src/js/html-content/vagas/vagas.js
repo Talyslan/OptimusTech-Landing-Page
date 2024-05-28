@@ -14,7 +14,7 @@ const template_vagaCargosAbertos = (array) => {
                     <span>${obj.title}</span>
 
                     <div>
-                        <span>${obj.period}</span>
+                        <span>Período: ${obj.period}</span>
                         <span>Faixa salarial: R$${obj.remuneration},00</span>
                     </div>
                 </div>
