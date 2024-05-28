@@ -1,0 +1,26 @@
+body.dark-mode {
+    background: var(--clr-black);
+    color: var(--clr-white);
+}
+
+body.dark-mode .cargos__abertos__item {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+}
+
+body.dark-mode .subtitle {
+    background-color: var(--clr-white-lowOpac);
+    color: var(--clr-white);
+}
+
+body.dark-mode .carrossel {
+    background: var(--clr-white-lowOpac);
+}
+
+body.dark-mode .acompanhe span {
+    background: var(--clr-black);
+}
+
+body.dark-mode .acompanhe input {
+    color: var(--clr-black);
+}

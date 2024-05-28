@@ -1,9 +1,10 @@
 :root {
-    --clr-basis: #8E2424;
+    --clr-basis: #73020C;
     --clr-basis-lowOpac:  #8E24240D; 
-    --clr-black: #101828;
+    --clr-black: #0D0D0D;
     --clr-black-lowOpac: #10182814;
     --clr-white: #fafafa;
+    --clr-white-lowOpac: #fafafa74;
     --clr-gray: #667085;
 }
 

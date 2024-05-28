@@ -16,9 +16,14 @@ body > header a:hover:not(a.btn) {
 
 /* header */
 body > header {
-    width: 100%;
     justify-content: space-between;
     padding: 1em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--clr-white);
 }
 
 .left-side,
