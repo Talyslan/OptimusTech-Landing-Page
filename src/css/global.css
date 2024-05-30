@@ -1,11 +1,15 @@
+* {
+    scroll-behavior: smooth;
+}
+
 :root {
-    --clr-basis: #73020C;
+    --clr-basis: #2D0B00;
     --clr-basis-lowOpac:  #8E24240D; 
-    --clr-black: #0D0D0D;
+    --clr-black: #160000;
     --clr-black-lowOpac: #10182814;
-    --clr-white: #fafafa;
-    --clr-white-lowOpac: #fafafa74;
-    --clr-gray: #667085;
+    --clr-white: #fcf7f6;
+    --clr-white-lowOpac: #f8ecec7e;
+    --clr-gray: #818181;
 }
 
 body,
@@ -17,7 +21,7 @@ button {
 
 body {
     background: var(--clr-white);
-    margin: 0 3em 0 3em;
+    margin: 2em 3em 0 3em;
 }
 
 h2,

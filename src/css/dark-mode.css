@@ -1,26 +1,23 @@
-body.dark-mode {
-    background: var(--clr-black);
-    color: var(--clr-white);
-}
-
-body.dark-mode .cargos__abertos__item {
-    background-color: var(--clr-white);
-    color: var(--clr-black);
-}
-
-body.dark-mode .subtitle {
-    background-color: var(--clr-white-lowOpac);
-    color: var(--clr-white);
-}
-
-body.dark-mode .carrossel {
-    background: var(--clr-white-lowOpac);
-}
-
-body.dark-mode .acompanhe span {
+body.dark-mode,
+body.dark-mode .acompanhe span,
+body.dark-mode .acompanhe label {
     background: var(--clr-black);
 }
 
+body.dark-mode,
+body.dark-mode .metrics h3,
+body.dark-mode .subtitle,
 body.dark-mode .acompanhe input {
+    color: var(--clr-white);
+}
+
+body.dark-mode .subtitle,
+body.dark-mode .carrossel {
+    background-color: var(--clr-white-lowOpac);
+}
+
+body.dark-mode .cargos__abertos__item,
+body.dark-mode form .btn {
     color: var(--clr-black);
+    background-color: var(--clr-white);
 }
