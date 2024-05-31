@@ -1,0 +1,76 @@
+button.menu-hamburger {
+  display: none;
+
+  border-top: .3em solid red;
+  cursor: pointer;
+}
+
+button.menu-hamburger::after,
+button.menu-hamburger::before {
+  content: '';
+  width: 2em;
+  height: .3em;
+  background: red;
+  display: block;
+  position: relative;
+  margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+  /* Menu hamburger e Theme */
+  button.menu-hamburger {
+    display: block;
+    position: absolute;
+    right: 2em;
+    top: 1.5em;
+  }
+
+  nav,
+  .buttons {
+    display: none;
+  }
+  
+  .theme-icon {
+    position: absolute;
+    right: 5em;
+    top: 1.2em;
+  }
+
+  header.active-menu-hamburger nav,
+  header.active-menu-hamburger .buttons {
+    display: block;
+  }
+
+  header.active-menu-hamburger {
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+    flex-direction: column;
+
+    pointer-events: all;
+  }
+
+  header.active-menu-hamburger .left-side a img {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+  }
+
+  header.active-menu-hamburger .left-side {
+    height: 100%;
+    justify-content: space-around;
+  }
+
+  header.active-menu-hamburger .left-side {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header.active-menu-hamburger .left-side nav ul {
+    flex-direction: column;
+  }
+
+}
+
+/* .active-menu-hamburger */

@@ -22,8 +22,9 @@
     <link rel="stylesheet" href="./src/css/main-page/vagas.css">
     <link rel="stylesheet" href="./src/css/main-page/carrossel.css">
     <link rel="stylesheet" href="./src/css/main-page/acompanhe.css">
-    <!-- Css - Mediq-Query -->
-    <link rel="stylesheet" href="./src/css/media-query.css">
+    <!-- Css - Responsivity-->
+    <link rel="stylesheet" href="./src/css/responsivity/media-query.css">
+    <link rel="stylesheet" href="./src/css/responsivity/menu-hamburguer.css">
     <!-- Css Dark-Mode -->
     <link rel="stylesheet" href="./src/css/dark-mode.css">
 
@@ -32,7 +33,7 @@
 <body>
     <!-- Cabeçalho com a barra de navegação -->
     <header class="flex">
-        <div class="flex left-side">
+        <div class="flex left-side">    
             <a href="#">
                 <img class="logo" src="./public/logos/logo-preta.svg" alt="OptimusTech Logo">
             </a>
@@ -45,7 +46,9 @@
                 </ul>
             </nav>
         </div>
-
+        
+        <button class="menu-hamburger"></button>
+        
         <div class="right-side flex">
             <img class="theme-icon" src="./public/dark-mode/moon.png" alt="">
             <div class="flex buttons">
@@ -53,6 +56,7 @@
                 <a href="" class="btn">Cadastrar</a>
             </div>
         </div>
+
     </header>
 
     <main>
@@ -123,5 +127,6 @@
     <script src="./src/js/input.js"></script>
     <script src="./src/js/scroll-active.js"></script>
     <script src="./src/js/dark-mode.js"></script>
+    <script src="./src/js/menu-hamburger.js"></script>
 </body>
 </html>
