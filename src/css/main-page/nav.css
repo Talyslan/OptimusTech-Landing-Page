@@ -25,10 +25,24 @@ body > header {
     transform: translateX(-50%);
     background: var(--clr-white);
     backdrop-filter: blur(5px);
+
+    transition: all 0.3s ease-in-out;
 }
 
 .left-side,
 .buttons,
 nav ul {
     gap: 2em;
+}
+
+.right-side {
+    gap: 3em;
+}
+
+.right-side img {
+    width: 1.5em;
+}
+
+.right-side .theme-icon {
+    cursor: pointer;
 }

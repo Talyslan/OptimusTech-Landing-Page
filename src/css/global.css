@@ -41,11 +41,13 @@ footer {
 }
 
 /* general classes */
+/* Display: flex */
 .flex {
     display: flex;
     align-items: center;
 }
 
+/* Button */
 .btn {
     background: var(--clr-basis);
     color: var(--clr-white);
@@ -61,6 +63,7 @@ footer {
     box-shadow: 5px 5px 5px var(--clr-basis-lowOpac);
 }
 
+/* Center */
 .center {
     display: flex;
     flex-direction: column;
@@ -72,6 +75,7 @@ footer {
     padding: 5em;
 }
 
+/* Subtitle */
 .subtitle {
     background: var(--clr-basis-lowOpac);
     color: var(--clr-basis);
@@ -79,4 +83,17 @@ footer {
     font-size: .9rem;
     padding: .3em .6em;
     border-radius: 1em;
+}
+
+/* Scroll Active */
+header.scroll-active {
+    background: var(--clr-white-lowOpac);
+}
+
+header.scroll-active a:not(a.btn) {
+    color: var(--clr-black);
+}
+
+header.scroll-active a:hover:not(a.btn) {
+    color: var(--clr-gray);
 }

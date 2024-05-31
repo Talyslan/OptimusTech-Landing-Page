@@ -21,3 +21,11 @@ body.dark-mode form .btn {
     color: var(--clr-black);
     background-color: var(--clr-white);
 }
+
+/* Nav Styles */
+body.dark-mode > header { background: var(--clr-black); }
+body.dark-mode > header a { color: var(--clr-white); }
+
+body.dark-mode > header.scroll-active { background: var(--clr-white-lowOpac); }
+body.dark-mode > header.scroll-active a:not(a.btn) { color: var(--clr-white); }
+body.dark-mode > header.scroll-active a:hover:not(a.btn) { color: var(--clr-gray); }
