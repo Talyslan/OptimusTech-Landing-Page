@@ -29,3 +29,8 @@ body.dark-mode > header a { color: var(--clr-white); }
 body.dark-mode > header.scroll-active { background: var(--clr-white-lowOpac); }
 body.dark-mode > header.scroll-active a:not(a.btn) { color: var(--clr-white); }
 body.dark-mode > header.scroll-active a:hover:not(a.btn) { color: var(--clr-gray); }
+
+/* Menu hamburger Styles */ 
+body.dark-mode button.menu-hamburger { border-top-color: var(--clr-white) }
+body.dark-mode button.menu-hamburger::after,
+body.dark-mode button.menu-hamburger::before { background: var(--clr-white); }
