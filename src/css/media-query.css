@@ -11,10 +11,6 @@
         display: none
     }
 
-    header.flex {
-        justify-content: center;
-    }
-
     /* general classes */
     .center {
         padding: 3em 1em;
