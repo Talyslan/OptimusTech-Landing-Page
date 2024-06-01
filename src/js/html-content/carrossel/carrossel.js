@@ -1,6 +1,6 @@
 // list object 
 import carrossel from "./carrossel-dados.js";
-console.log(carrossel)
+
 // selectors
 const carrossel_html = document.querySelector('#carrossel');
 

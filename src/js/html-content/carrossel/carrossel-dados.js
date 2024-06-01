@@ -14,7 +14,7 @@ const carrossel = [
     {
         name: 'Ana Paula',
         position: 'Designer Gráfico',
-        avata: 'avatar3.jpg',
+        avatar: 'avatar3.jpg',
         message: 'Aqui na OptimusTech temos a liberdade de propor novas ideias e participar de projetos inovadores.'
     },
     {
