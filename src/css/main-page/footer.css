@@ -1,4 +1,4 @@
-section.acompanhe {
+footer.acompanhe {
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -51,4 +51,8 @@ form button.btn {
 .active {
     top: -12px;
     font-size: .8rem;
+}
+
+footer > span {
+    margin-top: 2em;
 }
