@@ -1,3 +1,18 @@
 main > header {
     gap: 1em;
+    background: url('../../../public/video/work.gif') center / cover no-repeat scroll;
+    color: var(--clr-white);
+}
+
+main > header .subtitle {
+    background-color: var(--clr-white-lowOpac);
+    color: var(--clr-white);
+}
+
+main > header h1 strong {
+    background: var(--clr-basis);
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
