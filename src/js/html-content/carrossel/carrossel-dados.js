@@ -3,37 +3,43 @@ const carrossel = [
         name: 'Júlia Castro',
         position: 'Desenvolvedora Web',
         avatar: 'avatar1.jpg',
-        message: 'OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.'
+        message: 'OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.',
+        classe: 'first'
     },
     {
         name: 'Carlos Silva',
         position: 'Engenheiro de Software',
         avatar: 'avatar2.jpg',
-        message: 'A empresa oferece um ambiente acolhedor e sempre incentiva o desenvolvimento pessoal e profissional.'
+        message: 'A empresa oferece um ambiente acolhedor e sempre incentiva o desenvolvimento pessoal e profissional.',
+        classe: ''
     },
     {
         name: 'Ana Paula',
         position: 'Designer Gráfico',
         avatar: 'avatar3.jpg',
-        message: 'Aqui na OptimusTech temos a liberdade de propor novas ideias e participar de projetos inovadores.'
+        message: 'Aqui na OptimusTech temos a liberdade de propor novas ideias e participar de projetos inovadores.',
+        classe: ''
     },
     {
         name: 'Miguel Santos',
         position: 'Gerente de Projetos',
         avatar: 'avatar4.jpg',
-        message: 'A preocupação com o bem-estar dos funcionários é evidente e isso reflete na nossa produtividade.'
+        message: 'A preocupação com o bem-estar dos funcionários é evidente e isso reflete na nossa produtividade.',
+        classe: ''
     },
     {
         name: 'Larissa Oliveira',
         position: 'Analista de Dados',
         avatar: 'avatar5.jpg',
-        message: 'Trabalhar na OptimusTech tem sido uma experiência enriquecedora, com muitas oportunidades de aprendizado.'
+        message: 'Trabalhar na OptimusTech tem sido uma experiência enriquecedora, com muitas oportunidades de aprendizado.',
+        classe: ''
     },
     {
         name: 'Pedro Lima',
         position: 'Desenvolvedor Front-end',
         avatar: 'avatar6.jpg',
-        message: 'A cultura de inclusão e respeito faz toda a diferença no ambiente de trabalho.'
+        message: 'A cultura de inclusão e respeito faz toda a diferença no ambiente de trabalho.',
+        classe: ''
     }
 ]
 

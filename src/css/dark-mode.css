@@ -34,3 +34,17 @@ body.dark-mode > header.scroll-active a:hover:not(a.btn) { color: var(--clr-gray
 body.dark-mode button.menu-hamburger { border-top-color: var(--clr-white) }
 body.dark-mode button.menu-hamburger::after,
 body.dark-mode button.menu-hamburger::before { background: var(--clr-white); }
+
+body.dark-mode #radio1:checked ~ .manual-btn label[for="radio1"],
+body.dark-mode #radio2:checked ~ .manual-btn label[for="radio2"],
+body.dark-mode #radio3:checked ~ .manual-btn label[for="radio3"],
+body.dark-mode #radio4:checked ~ .manual-btn label[for="radio4"],
+body.dark-mode #radio5:checked ~ .manual-btn label[for="radio5"],
+body.dark-mode #radio6:checked ~ .manual-btn label[for="radio6"],
+body.dark-mode .carrossel-container .up-side .manual-btn label:hover {
+    background: var(--clr-white);
+}
+
+body.dark-mode .carrossel-container .up-side .manual-btn label {
+    border-color: var(--clr-white);
+}

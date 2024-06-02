@@ -5,9 +5,9 @@ import carrossel from "./carrossel-dados.js";
 const carrossel_html = document.querySelector('#carrossel');
 
 // function
-const createCarrosselElement = ({ name, position, avatar, message }) => {
+const createCarrosselElement = ({ name, position, avatar, message, classe}) => {
     return `
-        <div class="item">
+        <div class="item ${classe}">
             <p>${message}</p>
             <div class="user">
                 <img src="./public/people/${avatar}" alt="">
@@ -20,3 +20,20 @@ const createCarrosselElement = ({ name, position, avatar, message }) => {
 
 // inner content
 carrossel.forEach(obj => carrossel_html.innerHTML += createCarrosselElement(obj));
+
+// rolagem automática
+// selectors
+
+const labelList = document.querySelectorAll('label');
+let count = 1;
+let time = 5000;
+// function 
+const rolagem = () => {
+    count++
+    if (count > labelList.length) count = 1
+
+    document.querySelector(`#radio${count}`).checked = true;
+}
+
+// set interval
+setInterval(rolagem, time);

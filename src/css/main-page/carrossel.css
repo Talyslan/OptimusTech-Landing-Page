@@ -2,11 +2,94 @@
     margin-bottom: 2em;
 }
 
+/* carrossel-container */
+.carrossel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1em; */
+
+    position: relative;
+}
+
+/* buttons inputs */
+.carrossel-container input {
+    display: none;
+}
+
+/* buttons manual 1 */
+.carrossel-container .buttons {
+    display: flex;
+    gap: .5em;
+
+    position: absolute;
+    top: -2.5em;
+    left: .5em;
+}
+
+.carrossel-container .buttons div {
+    background: red;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+
+    cursor: pointer;
+}
+
+/* buttons manual 2 */
+.carrossel-container .manual-btn {
+    display: flex;
+    gap: .5em;
+
+    position: absolute;
+    left: 50%;
+    bottom: -2em;
+    transform: translateX(-50%);
+}
+
+.carrossel-container .manual-btn label {
+    border: 2px solid var(--clr-black-lowOpac);
+    border-radius: 1em;
+    padding: 5px;
+    
+    cursor: pointer;
+    transition: all 0.3s ease-out; 
+}
+
+#radio1:checked ~ .manual-btn label[for="radio1"],
+#radio2:checked ~ .manual-btn label[for="radio2"],
+#radio3:checked ~ .manual-btn label[for="radio3"],
+#radio4:checked ~ .manual-btn label[for="radio4"],
+#radio5:checked ~ .manual-btn label[for="radio5"],
+#radio6:checked ~ .manual-btn label[for="radio6"],
+.carrossel-container .manual-btn label:hover {
+    background: var(--clr-black);
+}
+
+/* classes de margem */
+#radio1:checked ~ .first { margin-left: 0%; }
+#radio2:checked ~ .first { margin-left: -105%; }
+#radio3:checked ~ .first { margin-left: -210%; }
+#radio4:checked ~ .first { margin-left: -312%; }
+#radio5:checked ~ .first { margin-left: -418%; }
+#radio6:checked ~ .first { margin-left: -530%; }
+
+/* carrossel */
 .carrossel {
     background: var(--clr-basis-lowOpac);
     border-radius: 1em;
     padding: 2em;
+    display: flex;
+
+    overflow: hidden;
 }
+
+/* item */
+.carrossel .item { 
+    flex: 0 0 100%; 
+    transition: 2s;
+}
+.carrossel .item:not(:last-child) { margin-right: 2em; }
 
 .item,
 .item .user {
@@ -14,11 +97,6 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
-}
-
-.item .user img {
-    width: 5em;
-    border-radius: 100%;
 }
 
 .item .user img {
