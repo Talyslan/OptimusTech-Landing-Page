@@ -18,7 +18,7 @@
 }
 
 /* buttons manual 1 */
-.carrossel-container .buttons {
+/* .carrossel-container .buttons {
     display: flex;
     gap: .5em;
 
@@ -34,7 +34,7 @@
     border-radius: 2em;
 
     cursor: pointer;
-}
+} */
 
 /* buttons manual 2 */
 .carrossel-container .manual-btn {
