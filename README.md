@@ -1,10 +1,12 @@
 <h1 align="center"> OptimusTech - Landing Page </h1>
 
+<!--
 <img height="500" src="" alt="Layout no Computador" />
 <img height="500" src="" alt="Layout no Celular" />
+-->
 
 ## 🛸 O Projeto
-<img height="200" src="" alt="gif" />
+<img height="200" src="https://wp.technologyreview.com/wp-content/uploads/custom-story/1066394/images/tech-7-3x.gif" alt="gif" />
 
 <blockquote>Optumos Tech, veja as nossas vagas abertas e faça parte do nosso time!</blockquote>
 
